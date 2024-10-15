@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+html, body {
+    overflow-x: hidden;
+}
+
+header {
+    background-image: url('assets/gambar.png');
+    background-size: cover; /* Mengatur background agar menutupi area */
+    height: 100vh; /* Misalnya, kamu mengatur tinggi header jadi 100% tinggi viewport */
+    background-position: center;
+}
+
+nav{
+    
+    margin-right: 100px;
+    margin-left: 100px;
+    background-size: cover; /* Mengatur background agar menutupi area */
+}
+
+.navbar-nav .nav-link {
+    
+    padding: 50px;
+    color: white;
+    margin-left: 20px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ccc; /* Lighter color on hover */
+}
+
+a{
+    font-family: "Open Sans", sans-serif;
+}
+h2{
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+.satu{
+    margin-top: 20vh;
+    margin-left: 100px;
+}
+
+.satu h6{
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+}
+
+.page2{
+    padding: 100px;
+}
+
+.page3{
+   margin-top: 100px;
+   padding: 100px; 
+   background-color: #F9FBFD;
+   width: 100vw; /* Lebar penuh terhadap viewport */
+   position: relative; /* Posisi relatif */
+   left: 50%; /* Memindahkan elemen ke tengah */
+   transform: translateX(-50%); /* Menggeser elemen ke kiri untuk mengimbangi lebar */
+   
+}
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.page4{
+    margin-top: 100px;
+}
+
+.text__profile{
+    font-family: "Open Sans", sans-serif;
+    margin-left: 150px;
+}
+.text__profile p{
+    font-family: "Open Sans", sans-serif;
+    color: #919FAE;
+    font-size: 14px;
+}
+
+.box1{
+    width:200px;
+    height:200px;
+    background:#ffffff;
+    border-radius: 5px;
+    box-shadow: 5px;
+    }
+.box2{
+    width:200px;
+    height:200px;
+background:#ffffff;
+border-radius: 5px;
+box-shadow: 5px;
+}
+.box3{
+    width:200px;
+    height:200px;
+background:#ffffff;
+border-radius: 5px;
+box-shadow: 5px;
+}
+
+.img-fluidaaa{
+   border-radius: 10%;
+}
+
+.box-text{
+    margin-left: 20px;
+}
+
+
+
+
+
+@media (max-width: 768px){
+    nav{
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 10px; /* Mengurangi padding agar terlihat lebih rapi di mobile */
+        margin-left: 0; /* Menghilangkan margin kiri pada link navigasi di mobile */
+    }
+
+    .satu{
+        margin-left: 0;
+    }
+    .page2{
+        padding: 50px;
+    }
+    .page3{
+        padding: 50px;
+    }
+    .text__profile{
+        margin-left: 0;
+    }
+    .row{
+      
+        flex-direction: column;
+        width: 100%;
+    }
+    .text-start {
+        margin-top: 20px; 
+    }
+    
+    
+}
+
+ a{
+    text-decoration: none;
+}
